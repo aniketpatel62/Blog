@@ -19,9 +19,12 @@ html {
 .navbar-nav  li a:hover {
     color: #1abc9c !important;
 }
+.navbar-brand a{
+  text-decoration: none;
+}
 
 .compose{
-  background-color: rgb(81, 255, 81);
+  background-color: rgb(129, 248, 129);
   border-radius: 10px;
 }
 
