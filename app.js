@@ -18,7 +18,7 @@ app.set("view engine", "ejs");
 
 //Securing users name and password 
 mongoose.connect(
-  "mongodb+srv://" + process.env.DB_USERNAME +":" + process.env.DB_PASSWORD +"@cluster0.b7cwxub.mongodb.net/blogDB",
+  "mongodb+srv://ani:12345@cluster0.b7cwxub.mongodb.net/blogDB",
   { useNewUrlParser: true }
 );
 mongoose.set("strictQuery", true);
